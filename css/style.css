@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag{
+    width: 600px;
+    height: 300px;
+    position: relative;
+}
+
+.black{
+    height: 33.33%;
+    background-color: black;
+}
+
+.white{
+    height: 33.33%;
+    background-color: white;
+}
+
+.green{
+    height: 33.33%;
+    background-color: #00824B;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-right: 200px solid red;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
